@@ -38,46 +38,7 @@
 	</script>
     
     
-    <script src="cordova-1.7.0.js"></script>
-<script>	
-var menuOpen = false;
-var menuDiv = "";
- 
-function init() {
-document.addEventListener("deviceready", startup, false);
-}
- 
-function startup() {
-console.log("Business time...");
-menuDiv = document.querySelector("#menu");
- 
-document.addEventListener("menubutton", doMenu, false);
-}
- 
-function doMenu() {
-console.log("The menu was clicked...");
-if(menuOpen) {
-console.log("close the menu");
-menuDiv.style.display="none";
-menuOpen = false;
-} else {
-console.log("open the menu");
-menuDiv.style.display="block";
-menuOpen = true;
-}
- 
-}
-</script>
-<style>
-div#menu {
-width: 30%;
-background-color: yellow;
-position:absolute;
-bottom: 0;
-left: 35%;
-display:none;
-}
-</style>
+  
 
 
 	
@@ -269,10 +230,6 @@ display:none;
  
 
  
-<div id="menu">
-  <a href="">Option One</a><br/>
-<a href="">Option Two</a>
-</div>
 
 
 
