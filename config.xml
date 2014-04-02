@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns:gap="http://phonegap.com/ns/1.0"
-    id="rilah.ministry.of.justice"
+    id="com.gamevil.zenonia2"
     version="1.0.1"
     versionCode="1"
     xmlns="http://www.w3.org/ns/widgets" >
