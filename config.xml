@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns:gap="http://phonegap.com/ns/1.0"
+<<<<<<< HEAD
     id="com.ministry.rilah.justice"
+=======
+    id="com.masjid.masjid"
+>>>>>>> d38f3c0c0135607e89a039dcd4423e2ecb9d1e9e
     version="1.0.1"
     versionCode="1"
     xmlns="http://www.w3.org/ns/widgets" >
